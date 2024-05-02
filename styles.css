@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#wordle-container {
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+#word-display {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#guess-input {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+#guess-button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#guess-button:hover {
+  background-color: #0056b3;
+}
+
+#message {
+  font-weight: bold;
+  margin-top: 20px;
+}
